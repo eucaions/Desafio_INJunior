@@ -6,13 +6,17 @@ while (isNaN(valor)) {
 switch (true) {
     case (valor%3 == 0 && valor%5 == 0):
         alert("fizzbuzz");
+        console.log("fizzbuzz");
         break;
     case (valor % 3 == 0):
         alert("fizz");
+        console.log("fizz");
         break;
     case (valor % 5 == 0):
         alert("buzz");
+        console.log("buzz");
         break;
     default:
-        alert("Nada");
+        alert("");
+        console.log("");
 }
