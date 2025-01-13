@@ -14,3 +14,4 @@ return "É palíndromo.";
 }
 let resultado = verificarPalin(palin);
 alert(`${resultado}`);
+console.log(`${resultado}`);
