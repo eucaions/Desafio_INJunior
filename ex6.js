@@ -21,3 +21,4 @@ for (let i = 0; i < n; i++) {
 
 
 alert(`A sequência de fibonacci é ${vet}`);
+console.log(`A sequência de fibonacci é ${vet}`);
